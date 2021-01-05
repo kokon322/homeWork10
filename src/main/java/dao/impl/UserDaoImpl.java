@@ -15,6 +15,7 @@ public class UserDaoImpl implements UserDao {
 
 
     @Override
+
     public User save(User user) {
         String query = "INSERT INTO users (user_name, user_age) VALUES (?, ?)";
         try (PreparedStatement preparedStatement = ConnectionUtil.getConnection().prepareStatement(query, Statement.RETURN_GENERATED_KEYS)) {
