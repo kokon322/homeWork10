@@ -11,6 +11,8 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <form action="">
+
+  </form>
   </body>
 </html>
