@@ -11,8 +11,12 @@
     <title>$Title$</title>
   </head>
   <body>
-  <form action="">
 
+  <form action="http://localhost:8080/save" method="post">
+    <input type="text" name="userName">
+    <input type="text" name="userAge">
+    <button type="submit">save</button>
   </form>
+
   </body>
 </html>
